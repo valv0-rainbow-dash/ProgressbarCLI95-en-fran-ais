@@ -96,7 +96,7 @@ def boot():
     # it's just a decision tree, isn't too hard.
     # or at least sounds easy.
     rprint('[white]Sparrow Assistant Enhanced Text BIOS.[not bold]80.1[/not bold][/white] - [bright_yellow]Energy Star (un)Powered[/bright_yellow]')
-    rprint('[white]CLI ver. [bold]0.2.2a[/bold] - compiled 05-09-2022[/white]\n\n')
+    rprint('[white]CLI ver. [bold]0.2.2a-fr-fix[/bold] - compiled 05-09-2022[/white]\n\n')
 
     ninefive = loadSystemSave("95")
     ninefivebadge = calculateBadge(ninefive, pro95)
