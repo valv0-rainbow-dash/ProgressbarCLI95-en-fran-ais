@@ -1,12 +1,16 @@
-# ProgressCLI95
+# ProgressCLI95 en Français
 
 Progressbar95 mais dans un terminal python. A quoi d'autre vous attendiez-vous ? 
 
+Github original: https://github.com/BurningInfern0/ProgressCLI95 (thanks for this game :) he is in french now)
+
 Fait par BurningInfern0; Traduit par Betawolfy_
 
-*Maintenant avec des fichiers de sauvegarde!*
+*Maintenant avec des sauvegardes!*
 
-Version actuelle : **0.2.2afr-fix**
+Version actuelle : **0.2.2fr-fix**
+
+
 
 ## Installation
 
@@ -31,6 +35,3 @@ Avant de créer un problème, assurez-vous de vérifier les points suivants :
 - Avez-vous exécuté le jeu en Python 2 ou Python 3 ?
   - Si vous avez exécuté le jeu en Python 2, veuillez exécuter le jeu en Python 3.
 - Avez-vous exécuté le jeu _en dehors_ du contenu extrait ?
-
-
-Traduit avec www.DeepL.com/Translator (version gratuite)
