@@ -12,6 +12,7 @@ global promeme
 global pro2000
 global proxb
 global prowista
+global prowolfos
 
 pro95 = 10
 pro95plus = 20
@@ -20,6 +21,7 @@ promeme = 30
 pro2000 = 30
 proxb = 40
 prowista = 40
+prowolfos = 50
 
 # systems
 sys.path.insert(0, './oses/')
@@ -33,6 +35,8 @@ def startup(system):
     from system2000 import launch2000
     from systemxb import launchxb
     from systemwista import launchwista
+    from systemwolfos import launchwolfos
+  
     if system == "1":
         level95 = loadSystemSave("95")
         badge95 = calculateBadge(level95, pro95)
@@ -74,6 +78,16 @@ def startup(system):
             launchxb(checkxb, badgexb, proxb, settingsdict)
     elif system == "7":
        checkwista = loadSystemSave("wista")
+       # bruh !!!! -716
+       badgewista = calculateBadge(checkwista, prowista)
+       if checkwista == False:
+          boot()
+       else:
+           launchwista(checkwista, badgewista, prowista, settingsdict)
+
+
+    elif system == "8":
+       checkwolos = loadSystemSave("wolfos")
        # bruh !!!! -716
        badgewista = calculateBadge(checkwista, prowista)
        if checkwista == False:
